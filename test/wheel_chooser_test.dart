@@ -7,7 +7,7 @@ Future<WheelChooser> _wheelChooserTester({required WidgetTester tester}) async {
   WheelChooser chooser;
   chooser = WheelChooser(
     onValueChanged: (s) => print(s),
-    datas: ["a", "b", "c"],
+    datas: ["a", "b", "c","d"],
     startPosition: 2,
   );
   await tester.pumpWidget(
